@@ -1,0 +1,37 @@
+body,
+#root {
+  display: contents;
+}
+
+html {
+  height: 100%;
+  font-size: 20px;
+  background: #f1fff0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+base-button {
+  border-radius: 4px;
+
+  & span {
+    margin: 4px;
+  }
+}
+
+#alert-root {
+  position: fixed;
+  top: 3em;
+  left: 33%;
+  right: 33%;
+  max-height: 6em;
+
+  & alert-item {
+    position: relative;
+    margin: 4px auto;
+    max-width: 600px;
+  }
+}
