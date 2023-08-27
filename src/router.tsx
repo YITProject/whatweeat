@@ -1,7 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import { RouteView } from 'godown';
 import Nav from './layout/nav';
-import React from 'react';
 import Pages from './pages';
 import About from './pages/about';
 import Data from './pages/data';

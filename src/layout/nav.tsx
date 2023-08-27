@@ -11,7 +11,7 @@ export default function Nav(props: { children: React.ReactElement; }) {
         {
           window.location.pathname !== `${baseURL}/` ? <SuperAnchor onClick={() => { window.history.back(); }}>
             Back
-          </SuperAnchor> : <SuperAnchor href={`${baseURL}}/about`}>
+          </SuperAnchor> : <SuperAnchor href={`${baseURL}/about`}>
             About
           </SuperAnchor>
         }
