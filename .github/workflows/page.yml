@@ -15,6 +15,6 @@ jobs:
     steps:
       - id: build-publish
         uses: bitovi/github-actions-react-to-github-pages@v1.2.0
-        # must npm-lock (package-lock.json)
+        # use npm
         with:
           path: build

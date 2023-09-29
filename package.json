@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "react-scripts start",
     "start": "react-scripts start",
-    "build": "react-scripts build && cp build/index.html build/404.html",
+    "build": "react-scripts build && node scripts/gen-404.js",
     "test": "react-scripts test"
   },
   "dependencies": {

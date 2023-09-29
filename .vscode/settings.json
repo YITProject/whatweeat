@@ -2,7 +2,6 @@
   "files.exclude": {
     "node_modules": true,
     "tsconfig.json": true,
-    "*lock*": true,
     "src/react-app-env.d.ts": true
   }
 }
